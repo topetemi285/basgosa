@@ -61,8 +61,7 @@ function ForgotPasswordScreen() {
         setLoading(false);
         toast.success("Success, Check your email for an OTP token");
       }
-      router.push(`/auth/forgo
-        t-password/otp?email=${formData.email}`);
+      router.push(`/auth/forgot-password/otp?email=${formData.email}`);
     } catch (e) {
       setLoading(false);
       toast.error("An error occurred");

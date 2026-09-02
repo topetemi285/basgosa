@@ -102,6 +102,23 @@ export const team = [
   { name: "Abi Izang Igyem", role: "Executive Committee", image: "/images/team/member-09.png" },
 ];
 
+export const events = [
+  {
+    title: "BASGOSA National Convention",
+    theme: "Home Again: Unity, Legacy and the Future We Must Build",
+    date: "27th – 29th August 2026",
+    venue: "Crispan Suits and Event Centre, Jonah Jang Way, Jos, Plateau State",
+    image: "/images/gallery/event1.jpg",
+  },
+  {
+    title: "Free Medical Outreach",
+    theme: "2026 Convention — Home Again",
+    date: "Thursday, 27th August 2026 · 9:00 AM",
+    venue: "Baptist Science Grammar School Hall, Jos",
+    image: "/images/gallery/event2.jpg",
+  },
+];
+
 export const homePhotos = [
   "/images/gallery/photo-01.jpg",
   "/images/gallery/photo-02.jpg",

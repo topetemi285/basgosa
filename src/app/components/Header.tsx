@@ -37,7 +37,14 @@ export default function Header() {
       <div className="border-b border-brown/10 bg-cream/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-site items-center justify-between gap-4 px-5 py-3 sm:px-8">
           <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-            <Image src="/images/logo.png" alt={site.fullName} width={56} height={56} priority />
+            <Image
+              src="/images/logo.png"
+              alt={site.fullName}
+              width={56}
+              height={56}
+              priority
+              className="h-auto w-auto"
+            />
             <span className="leading-tight">
               <span className="block font-display text-2xl font-semibold tracking-tight text-brown">
                 {site.name}

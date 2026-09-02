@@ -8,7 +8,13 @@ export default function Footer() {
       <div className="mx-auto grid max-w-site gap-12 px-5 py-16 sm:px-8 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex items-center gap-3">
-            <Image src="/images/logo.png" alt={site.name} width={52} height={52} />
+            <Image
+              src="/images/logo.png"
+              alt={site.name}
+              width={52}
+              height={52}
+              className="h-auto w-auto"
+            />
             <div>
               <p className="font-display text-2xl">{site.name}</p>
               <p className="text-xs uppercase tracking-[0.2em] text-gold">{site.motto}</p>

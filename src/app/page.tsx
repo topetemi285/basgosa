@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import EventFlyers from "./components/EventFlyers";
 import {
   homePhotos,
   objectives,
@@ -101,12 +102,8 @@ export default function Home() {
             View all
           </Link>
         </div>
-        <div className="mt-8 rounded-[2rem] border border-dashed border-brown/20 bg-cream px-8 py-16 text-center">
-          <p className="font-display text-3xl text-brown">No event found</p>
-          <p className="mx-auto mt-3 max-w-md text-brown-soft">
-            New programmes will appear here. In the meantime, join the Association and stay informed
-            of the school’s progress.
-          </p>
+        <div className="mt-8">
+          <EventFlyers />
         </div>
       </section>
 
